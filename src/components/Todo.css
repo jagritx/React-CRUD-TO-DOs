@@ -1,0 +1,27 @@
+.todo-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    margin:10px 0px;
+    padding:11px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+.complete{
+    color: white;
+    background-color: green;
+    text-decoration:line-through;
+}
+.icons{
+    margin-bottom: -4px;
+    cursor: pointer;
+}
+.delete-icon:hover{
+    color:red;
+    opacity: 0.5;
+}
+.edit-icon:hover{
+    color:green;
+    opacity: 0.5;
+}

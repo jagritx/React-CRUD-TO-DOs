@@ -1,0 +1,14 @@
+*{
+    transition: 0.2s;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.todo-app{
+    display: flex;
+    border: 5px solid gray;
+    border-radius: 25px;
+    margin: 5% 8%;
+    padding: 20px;
+}
